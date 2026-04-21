@@ -1,0 +1,30 @@
+body {
+  background: #060A0F;
+  color: #C8D8EE;
+}
+
+.admin-section {
+  border: 1px solid #1E3050;
+  border-radius: 8px;
+  background: #111B28;
+  padding: 18px;
+}
+
+.form-control,
+.form-select {
+  background: #0D1520;
+  border-color: #1E3050;
+  color: #fff;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background: #0D1520;
+  color: #fff;
+  border-color: #00FF7F;
+  box-shadow: 0 0 0 0.2rem rgba(0,255,127,0.18);
+}
+
+.table > :not(caption) > * > * {
+  border-bottom-color: #1E3050;
+}

@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+  nav { padding: 14px 24px; }
+  .nav-links { display: none; }
+  section, #hero { padding: 80px 24px; }
+  .schedule-layout { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .register-panel { position: static; }
+  .players-controls { width: 100%; align-items: stretch; }
+  .players-tools { width: 100%; }
+}
+
+@media (max-width: 560px) {
+  footer { padding: 48px 24px 24px; }
+  .footer-grid { grid-template-columns: 1fr; }
+  .hero-stats { gap: 28px; }
+  .players-tools { flex-direction: column; }
+}
